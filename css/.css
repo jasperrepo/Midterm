@@ -1,0 +1,19 @@
+header, section, nav, article, figure, figcaption {
+    display:block;}
+    body {
+      color:#666666;
+      background-color: firebrick;
+      background-image: url("images/backround.png");
+      background-position: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 1.4em;
+      margin: 0px;}
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border:2px solid #000000;
+    background-color: #ffffff;}
+
+header {
+    
+}
