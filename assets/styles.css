@@ -2,7 +2,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
     display:block;}
     body {
       color:#666666;
-      background-color: firebrick;
+      background-color: #49f8f6;
       background-image: url("images/backround.png");
       background-position: center;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -18,7 +18,8 @@ header, section, footer, aside, nav, article, figure, figcaption {
 
 header {
     height: 160px;
-    background-image: url("images/logo_header.png");
+    background:#13c7fd;
+    ;
 
 }
 
