@@ -1,4 +1,4 @@
-header, section, nav, article, figure, figcaption {
+header, section, footer, aside, nav, article, figure, figcaption {
     display:block;}
     body {
       color:#666666;
@@ -7,13 +7,74 @@ header, section, nav, article, figure, figcaption {
       background-position: center;
       font-family: Georgia, 'Times New Roman', Times, serif;
       line-height: 1.4em;
-      margin: 0px;}
+      margin: 0px;
+    }
 .wrapper {
     width: 940px;
     margin: 20px auto 20px auto;
     border:2px solid #000000;
-    background-color: #ffffff;}
+    background-color: #ffffff;
+}
 
 header {
-    
+    height: 160px;
+    background-image: url("images/logo_header.png");
+
 }
+
+h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;}
+
+nav, footer {
+Clear:both;
+color: #ffffff;
+height:30px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;}
+
+nav li {
+display: inline ;
+margin-right: 40px;
+}
+nav li a {
+    color: #ffffff;
+}
+   
+ nav li a:hover, nav li a.current {
+    color: #000000;
+}
+section.courses {
+     float:left;
+     width: 659px;
+     border-right: 1px solid #eeeeee;
+}
+
+article {
+    clear:both;
+    overflow:auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float:left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
