@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>midterm</title>
+  <style type="text/css">
+    header, section, nav, article, figure, figcaption {
+    display:block;}
+    body {
+      color:#666666;
+      background-color: firebrick;
+      background-image: url("")
+
+    }
+  </style>
+</head>
+
+
+   
+
+<script> 
+ const navButton = document.querySelector('button[aria-expanded]');
+
+  function toggleNav({ target }) {
+    const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+    navButton.setAttribute('aria-expanded', !expanded);
+  }
+
+  navButton.addEventListener('click', toggleNav);
+</script>
+
+</body>
+
+</html>
